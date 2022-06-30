@@ -157,7 +157,7 @@ public class TestPerson {
     public void testSetSkills() {
         // Given
         Person person = new Person();
-        List<String> expected = new ArrayList<String>();
+        List<String> expected = new ArrayList<String>(Arrays.asList("Public Speaking", "Java"));
 
         // When
         person.setSkills(expected);
