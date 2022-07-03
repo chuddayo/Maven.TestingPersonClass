@@ -19,11 +19,13 @@ public class Person {
     }
 
     public Person(int age) {
+        this.name = "";
         this.age = age;
     }
 
     public Person(String name) {
         this.name = name;
+        this.age = Integer.MAX_VALUE;
     }
 
     public Person(String name, int age) {
